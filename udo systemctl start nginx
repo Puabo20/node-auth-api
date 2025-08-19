@@ -1,0 +1,15 @@
+○ nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (]8;;file://ubuntu.local/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;32menabled[0m)
+     Active: inactive (dead)
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;
+
+Aug 14 15:53:27 ubuntu.local nginx[7299]: 2025/08/14 15:53:27 [notice] 7299#7299: signal process started
+Aug 14 15:53:27 ubuntu.local systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Aug 14 16:00:22 ubuntu.local systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Aug 14 16:00:22 ubuntu.local nginx[7588]: 2025/08/14 16:00:22 [warn] 7588#7588: conflicting server name "puaboverse.online" on 0.0.0.0:80, ignored
+Aug 14 16:00:22 ubuntu.local nginx[7588]: 2025/08/14 16:00:22 [notice] 7588#7588: signal process started
+Aug 14 16:00:22 ubuntu.local systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Aug 15 20:27:28 ubuntu.local systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Aug 15 20:27:28 ubuntu.local systemd[1]: nginx.service: Deactivated successfully.
+Aug 15 20:27:28 ubuntu.local systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Aug 15 20:27:28 ubuntu.local systemd[1]: nginx.service: Consumed 1.240s CPU time, 11.4M memory peak, 0B memory swap peak.

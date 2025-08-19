@@ -1,0 +1,16 @@
+.less-history-file:
+.search
+"127.0.0.1:3000/api/test-db
+"YOUR_PUBLIC_IP:3000/api/test-db
+"127.0.0.1:3000/api/test-db
+"YOUR_PUBLIC_IP:3000/api/test-db
+"root/pm2_full_logs.txt
+"var/www/vhosts/puaboverse.online/backend
+"var/log/mysql/error.log
+"usr/lib/systemd/system/mariadb.service; enabled; preset: enabled)
+"var/log/mysql/error.logtail -40 /var/log/mysql/error.log
+"root/mariadb-dump.sql
+"root/mariadb-dump.sqlls -lh /root/mariadb-dump.sql
+"root/mariadb-dump.sql
+"root/mariadb-dump.sqlls -lh /root/mariadb-dump.sql
+"root/mariadb-dump.sql

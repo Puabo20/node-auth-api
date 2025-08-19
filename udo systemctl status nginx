@@ -1,0 +1,28 @@
+[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (]8;;file://ubuntu.local/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Thu 2025-08-14 00:53:02 UTC; 42min ago
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;
+    Process: 46631 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 46633 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 48228 ExecReload=/usr/sbin/nginx -g daemon on; master_process on; -s reload (code=exited, status=0/SUCCESS)
+   Main PID: 46634 (nginx)
+      Tasks: 5 (limit: 9429)
+     Memory: 6.0M (peak: 11.2M)
+        CPU: 238ms
+     CGroup: /system.slice/nginx.service
+             ├─[0;38;5;245m46634 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m
+             ├─[0;38;5;245m48230 "nginx: worker process"[0m
+             ├─[0;38;5;245m48231 "nginx: worker process"[0m
+             ├─[0;38;5;245m48232 "nginx: worker process"[0m
+             └─[0;38;5;245m48233 "nginx: worker process"[0m
+
+Aug 14 00:59:51 ubuntu.local systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Aug 14 01:15:19 ubuntu.local systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Aug 14 01:15:19 ubuntu.local nginx[47722]: 2025/08/14 01:15:19 [notice] 47722#47722: signal process started
+Aug 14 01:15:19 ubuntu.local systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Aug 14 01:21:41 ubuntu.local systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Aug 14 01:21:41 ubuntu.local nginx[48058]: 2025/08/14 01:21:41 [notice] 48058#48058: signal process started
+Aug 14 01:21:41 ubuntu.local systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Aug 14 01:25:29 ubuntu.local systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Aug 14 01:25:29 ubuntu.local nginx[48228]: 2025/08/14 01:25:29 [notice] 48228#48228: signal process started
+Aug 14 01:25:29 ubuntu.local systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.

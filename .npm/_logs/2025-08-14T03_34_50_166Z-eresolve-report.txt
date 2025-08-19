@@ -1,0 +1,18 @@
+'Log files:
+/root/.npm/_logs/2025-08-14T03_34_50_166Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: puabo-os-mobile@0.1.0
+Found: react@18.2.0
+node_modules/react
+  react@"18.2.0" from the root project
+
+Could not resolve dependency:
+peer react@"^19.0.0" from react-dom@19.0.0
+node_modules/react-dom
+  react-dom@"19.0.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

@@ -1,10 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const { register, login, adminOnly } = require('../controllers/userController');
-const { authenticateJWT, isAdmin } = require('../middleware/auth');
+const userController = require('../controllers/userController');
 
-router.post('/register', register);
-router.post('/login', login);
-router.get('/admin', authenticateJWT, isAdmin, adminOnly);
+router.get('/', userController.getUser);
+router.post('/', userController.createUser);
 
 module.exports = router;

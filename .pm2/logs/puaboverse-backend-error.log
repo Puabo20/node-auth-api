@@ -1,0 +1,75 @@
+Error: Access denied for user 'your_mysql_user'@'localhost'
+    at Object.createConnectionPromise [as createConnection] (/var/www/vhosts/puaboverse.online/backend/node_modules/mysql2/promise.js:19:31)
+    at /var/www/vhosts/puaboverse.online/backend/server.js:20:36
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at /var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:295:15
+    at processParams (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:582:12)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:291:5) {
+  code: 'ER_ACCESS_DENIED_NO_PASSWORD_ERROR',
+  errno: 1698,
+  sqlState: '28000'
+}
+Error: Access denied for user 'your_mysql_user'@'localhost'
+    at Object.createConnectionPromise [as createConnection] (/var/www/vhosts/puaboverse.online/backend/node_modules/mysql2/promise.js:19:31)
+    at /var/www/vhosts/puaboverse.online/backend/server.js:20:36
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at /var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:295:15
+    at processParams (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:582:12)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:291:5) {
+  code: 'ER_ACCESS_DENIED_NO_PASSWORD_ERROR',
+  errno: 1698,
+  sqlState: '28000'
+}
+Error: Access denied for user 'your_mysql_user'@'localhost'
+    at Object.createConnectionPromise [as createConnection] (/var/www/vhosts/puaboverse.online/backend/node_modules/mysql2/promise.js:19:31)
+    at /var/www/vhosts/puaboverse.online/backend/server.js:20:36
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at /var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:295:15
+    at processParams (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:582:12)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:291:5) {
+  code: 'ER_ACCESS_DENIED_NO_PASSWORD_ERROR',
+  errno: 1698,
+  sqlState: '28000'
+}
+Error: Access denied for user 'your_mysql_user'@'localhost'
+    at Object.createConnectionPromise [as createConnection] (/var/www/vhosts/puaboverse.online/backend/node_modules/mysql2/promise.js:19:31)
+    at /var/www/vhosts/puaboverse.online/backend/server.js:20:36
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at /var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:295:15
+    at processParams (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:582:12)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:291:5) {
+  code: 'ER_ACCESS_DENIED_NO_PASSWORD_ERROR',
+  errno: 1698,
+  sqlState: '28000'
+}
+Error: Access denied for user 'your_mysql_user'@'localhost'
+    at Object.createConnectionPromise [as createConnection] (/var/www/vhosts/puaboverse.online/backend/node_modules/mysql2/promise.js:19:31)
+    at /var/www/vhosts/puaboverse.online/backend/server.js:20:36
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/vhosts/puaboverse.online/backend/node_modules/router/lib/layer.js:152:17)
+    at /var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:295:15
+    at processParams (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:582:12)
+    at next (/var/www/vhosts/puaboverse.online/backend/node_modules/router/index.js:291:5) {
+  code: 'ER_ACCESS_DENIED_NO_PASSWORD_ERROR',
+  errno: 1698,
+  sqlState: '28000'
+}

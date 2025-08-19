@@ -1,0 +1,190 @@
+Aug 14 15:02:27 ubuntu.local systemd[1]: Starting mariadb.service - MariaDB 10.11.13 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 183.[0m
+Aug 14 15:02:28 ubuntu.local (mariadbd)[1059]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] Starting MariaDB 10.11.13-MariaDB-0ubuntu0.24.04.1 source revision 8fb09426b98583916ccfd4f8c49741adc115bac3 server_uid gzDAncFhxDUfhJbcl1NHTwsrJVM= as process 1059
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Compressed tables use zlib 1.3
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Number of transaction pools: 1
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Using liburing
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: innodb_buffer_pool_size_max=128m, innodb_buffer_pool_size=128m
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Initialized memory pressure event listener
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Completed initialization of buffer pool
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: End of log at LSN=8936277
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: 128 rollback segments are active.
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: log sequence number 8936277; transaction id 14036
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] Server socket created on IP: '127.0.0.1'.
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:28 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Aug 14 15:02:28 ubuntu.local mariadbd[1059]: Version: '10.11.13-MariaDB-0ubuntu0.24.04.1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Ubuntu 24.04
+Aug 14 15:02:28 ubuntu.local systemd[1]: Started mariadb.service - MariaDB 10.11.13 database server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 183.[0m
+Aug 14 15:02:28 ubuntu.local /etc/mysql/debian-start[1185]: Upgrading MariaDB tables if necessary.
+Aug 14 15:02:28 ubuntu.local /etc/mysql/debian-start[1215]: Checking for insecure root accounts.
+Aug 14 15:02:28 ubuntu.local /etc/mysql/debian-start[1224]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Aug 14 15:02:29 ubuntu.local mariadbd[1059]: 2025-08-14 15:02:29 0 [Note] InnoDB: Buffer pool(s) load completed at 250814 15:02:29
+Aug 14 21:53:57 ubuntu.local mariadbd[1059]: 2025-08-14 21:53:57 1510 [Warning] Access denied for user 'your_mysql_user'@'localhost'
+Aug 14 22:13:19 ubuntu.local mariadbd[1059]: 2025-08-14 22:13:19 1594 [Warning] Access denied for user 'your_mysql_user'@'localhost'
+Aug 14 22:29:58 ubuntu.local mariadbd[1059]: 2025-08-14 22:29:58 1676 [Warning] Access denied for user 'your_mysql_user'@'localhost'
+Aug 14 22:35:44 ubuntu.local mariadbd[1059]: 2025-08-14 22:35:44 1705 [Warning] Access denied for user 'your_mysql_user'@'localhost'
+Aug 14 22:42:30 ubuntu.local mariadbd[1059]: 2025-08-14 22:42:30 1745 [Warning] Access denied for user 'your_mysql_user'@'localhost'
+Aug 14 22:56:48 ubuntu.local mariadbd[1059]: 2025-08-14 22:56:48 1818 [Warning] Access denied for user 'root'@'localhost'
+Aug 14 22:57:39 ubuntu.local mariadbd[1059]: 2025-08-14 22:57:39 1829 [Warning] Access denied for user 'root'@'localhost'
+Aug 14 23:31:42 ubuntu.local mariadbd[1059]: 2025-08-14 23:31:42 1927 [Warning] Aborted connection 1927 to db: 'creator_os' user: 'root' host: 'localhost' (Got an error reading communication packets)
+Aug 14 23:35:33 ubuntu.local mariadbd[1059]: 2025-08-14 23:35:33 2011 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+Aug 14 23:37:09 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:09 2012 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] /usr/sbin/mariadbd (initiated by: unknown): Normal shutdown
+Aug 14 23:37:52 ubuntu.local systemd[1]: Stopping mariadb.service - MariaDB 10.11.13 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 691816.[0m
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: FTS optimize thread exiting.
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: Starting shutdown...
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: Restricted to 2028 pages due to innodb_buf_pool_dump_pct=25
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: Buffer pool(s) dump completed at 250814 23:37:52
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] InnoDB: Shutdown completed; log sequence number 8985801; transaction id 14332
+Aug 14 23:37:52 ubuntu.local mariadbd[1059]: 2025-08-14 23:37:52 0 [Note] /usr/sbin/mariadbd: Shutdown complete
+Aug 14 23:37:52 ubuntu.local systemd[1]: mariadb.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has successfully entered the 'dead' state.[0m
+Aug 14 23:37:52 ubuntu.local systemd[1]: Stopped mariadb.service - MariaDB 10.11.13 database server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit mariadb.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit mariadb.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 691816 and the job result is done.[0m
+Aug 14 23:37:52 ubuntu.local systemd[1]: mariadb.service: Consumed 7.245s CPU time, 149.9M memory peak, 0B memory swap peak.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service completed and consumed the indicated resources.[0m
+Aug 14 23:39:50 ubuntu.local systemd[1]: Starting mariadb.service - MariaDB 10.11.13 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 694439.[0m
+Aug 14 23:39:50 ubuntu.local (mariadbd)[215060]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Aug 14 23:39:50 ubuntu.local mariadbd[215060]: 2025-08-14 23:39:50 0 [Note] Starting MariaDB 10.11.13-MariaDB-0ubuntu0.24.04.1 source revision 8fb09426b98583916ccfd4f8c49741adc115bac3 server_uid gzDAncFhxDUfhJbcl1NHTwsrJVM= as process 215060
+Aug 14 23:39:50 ubuntu.local mariadbd[215060]: 2025-08-14 23:39:50 0 [ERROR] mariadbd: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [ERROR] mariadbd: Got error 'Could not get an exclusive lock; file is probably in use by another process' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Compressed tables use zlib 1.3
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Number of transaction pools: 1
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Using liburing
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: innodb_buffer_pool_size_max=128m, innodb_buffer_pool_size=128m
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Initialized memory pressure event listener
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Completed initialization of buffer pool
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Check that you do not already have another mariadbd process using the same InnoDB data or log files.
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+Aug 14 23:40:20 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:20 0 [Note] InnoDB: Starting shutdown...
+Aug 14 23:40:21 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:21 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Aug 14 23:40:21 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+Aug 14 23:40:21 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:21 0 [ERROR] Could not open mysql.plugin table: "Unknown storage engine 'Aria'". Some plugins may be not loaded
+Aug 14 23:40:21 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:21 0 [ERROR] Failed to initialize plugins.
+Aug 14 23:40:21 ubuntu.local mariadbd[215060]: 2025-08-14 23:40:21 0 [ERROR] Aborting
+Aug 14 23:40:21 ubuntu.local systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Aug 14 23:40:21 ubuntu.local systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Aug 14 23:40:21 ubuntu.local systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 10.11.13 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 694439 and the job result is failed.[0m
+Aug 15 01:47:11 ubuntu.local systemd[1]: Starting mariadb.service - MariaDB 10.11.13 database server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 865592.[0m
+Aug 15 01:47:11 ubuntu.local (mariadbd)[221586]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+Aug 15 01:47:11 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:11 0 [Note] Starting MariaDB 10.11.13-MariaDB-0ubuntu0.24.04.1 source revision 8fb09426b98583916ccfd4f8c49741adc115bac3 server_uid gzDAncFhxDUfhJbcl1NHTwsrJVM= as process 221586
+Aug 15 01:47:11 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:11 0 [ERROR] mariadbd: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] mariadbd: Got error 'Could not get an exclusive lock; file is probably in use by another process' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Compressed tables use zlib 1.3
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Number of transaction pools: 1
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Using liburing
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: innodb_buffer_pool_size_max=128m, innodb_buffer_pool_size=128m
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Initialized memory pressure event listener
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Completed initialization of buffer pool
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] InnoDB: File ./ib_logfile0 was not found
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] InnoDB: Starting shutdown...
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [Note] Plugin 'FEEDBACK' is disabled.
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] Could not open mysql.plugin table: "Unknown storage engine 'Aria'". Some plugins may be not loaded
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] Failed to initialize plugins.
+Aug 15 01:47:41 ubuntu.local mariadbd[221586]: 2025-08-15  1:47:41 0 [ERROR] Aborting
+Aug 15 01:47:41 ubuntu.local systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit mariadb.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Aug 15 01:47:41 ubuntu.local systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmariadb.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit mariadb.service has entered the 'failed' state with result 'exit-code'.[0m
+Aug 15 01:47:41 ubuntu.local systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start mariadb.service - MariaDB 10.11.13 database server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit mariadb.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit mariadb.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 865592 and the job result is failed.[0m

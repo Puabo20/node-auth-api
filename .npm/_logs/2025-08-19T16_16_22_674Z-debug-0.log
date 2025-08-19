@@ -1,0 +1,32 @@
+0 verbose cli /root/.nvm/versions/node/v22.18.0/bin/node /root/.nvm/versions/node/v22.18.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/root/.nvm/versions/node/v22.18.0/etc/npmrc
+6 verbose title npm start
+7 verbose argv "start"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-08-19T16_16_22_674Z-
+9 verbose logfile /root/.npm/_logs/2025-08-19T16_16_22_674Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 verbose stack JSONParseError: Invalid package.json: JSONParseError: Expected ',' or '}' after property value in JSON at position 8475 (line 291 column 1) while parsing near "...cified\\\" && exit 1\"\n\"scripts\": {\n  \"star..."
+12 verbose stack     at parse (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+12 verbose stack     at PackageJson.fromJSON (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:163:22)
+12 verbose stack     at PackageJson.load (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:158:17)
+12 verbose stack     at async PackageJson.normalize (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:118:5)
+12 verbose stack     at async #run (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/lib/commands/run-script.js:86:13)
+12 verbose stack     at async RunScript.exec (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/lib/commands/run-script.js:40:7)
+12 verbose stack     at async Npm.exec (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/lib/npm.js:207:9)
+12 verbose stack     at async module.exports (/root/.nvm/versions/node/v22.18.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+13 error code EJSONPARSE
+14 error JSON.parse Invalid package.json: JSONParseError: Expected ',' or '}' after property value in JSON at position 8475 (line 291 column 1) while parsing near "...cified\\\" && exit 1\"\n\"scripts\": {\n  \"star..."
+15 error JSON.parse Failed to parse JSON data.
+15 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+16 verbose cwd /root
+17 verbose os Linux 6.8.0-71-generic
+18 verbose node v22.18.0
+19 verbose npm  v10.9.3
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /root/.npm/_logs/2025-08-19T16_16_22_674Z-debug-0.log

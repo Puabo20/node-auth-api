@@ -1,0 +1,1 @@
+ervice --no-pager -u pm2-root.service --no-pager /root/pm2_full_logs.txt

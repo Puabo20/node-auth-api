@@ -1,0 +1,56 @@
+})
+  roles: [ { role: "readWrite", db: "test" } ]
+  pwd: "Momoney2025$$",
+  user: "BobbyBlanco",
+db.dropUser("subscriber1")
+use admin
+})
+  roles: [ { role: "readWrite", db: "test" } ]
+  pwd: "StrongSubPassword!",
+  user: "subscriber1",
+use admin
+mongosh -u admin -p 'Momoney2025$$' --authenticationDatabase admin
+show dbs
+db.runCommand({ connectionStatus: 1 })
+exit
+mongosh -u admin -p 'Momoney2025$$' --authenticationDatabase admin
+mongosh -u admin -p Momoney2025$$ --authenticationDatabase admin
+db.getUsers()
+use admin
+exit
+mongosh -u admin -p Momoney2025$$ --authenticationDatabase admin
+sudo pkill mongod
+db.getUsers()
+use admin
+exit
+})
+  roles: [ { role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase" ]
+  pwd: "Momoney2025$$",
+  user: "admin",
+use admin
+mongosh
+})
+  roles: [ { role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase" ]
+  pwd: "Momoney2025$$",
+  user: "admin",
+use admin
+exit
+sudo mongod --config /etc/mongod.conf --noauth
+sudo systemctl stop mongod
+db.getUsers()
+use admin
+q
+db.getUsers()
+use admin
+exit
+mongosh
+})
+  roles: [ { role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase" ]
+  pwd: "Momoney2025$$",
+  user: "admin",
+use admin
+mongosh
+exit
+sudo mongod --config /etc/mongod.conf --noauth
+sudo systemctl stop mongod
+show dbs

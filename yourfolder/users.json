@@ -1,0 +1,8 @@
+[
+  {
+    "email": "robert.white@puaboverse.online",
+    "password": "TempPassword123!",
+    "active": true,
+    "roles": ["admin"]
+  }
+]

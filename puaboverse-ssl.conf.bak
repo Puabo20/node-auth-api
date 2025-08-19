@@ -1,0 +1,28 @@
+server {
+    listen 443 ssl;
+    server_name puaboverse.online www.puaboverse.online;
+
+    ssl_certificate /etc/letsencrypt/live/puaboverse.online/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/puaboverse.online/privkey.pem;
+
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers HIGH:!aNULL:!MD5;
+    ssl_prefer_server_ciphers on;
+
+    root /var/www/vhosts/puaboverse.online/httpdocs;
+    index index.html index.htm index.php;
+
+    location /.well-known/acme-challenge/ {
+        root /var/www/vhosts/puaboverse.online/httpdocs;
+    }
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
+
+server {
+    listen 80;
+    server_name puaboverse.online www.puaboverse.online;
+    return 301 https://$host$request_uri;
+}

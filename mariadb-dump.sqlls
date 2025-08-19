@@ -1,0 +1,1 @@
+qldump --all-databases --single-transaction --routines --triggers --flush-logs --master-data\=2 -lh /root/mariadb-dump.sql
